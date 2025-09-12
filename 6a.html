@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Example</title>
+
+<!-- Internal JavaScript -->
+<script>
+function displayMessage() {
+alert("This is an internal JavaScript message!");
+}
+
+function typeConversionExample() {
+var num = "123";
+var convertedNum = Number(num);
+alert("The converted number is: " + convertedNum);
+}
+</script>
+</head>
+<body>
+<h1>Internal and External JavaScript Example</h1>
+
+<!-- Buttons to trigger functions -->
+<button onclick="displayMessage()">Click me for Internal JS</button>
+<button onclick="typeConversionExample()">Click me for Type Conversion</button>
+
+<!-- External JavaScript -->
+
+<script src="external.js"></script>
+</body>
+</html>
